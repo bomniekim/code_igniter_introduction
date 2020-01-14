@@ -1,5 +1,11 @@
 <?php
 
+
+    // 컨트롤러: 사용자가 접근 한 URL에 따라서 사용자의 요청사항을 파악한 후에 그 요청에 맞는 데이터를 Model에 의뢰하고
+    // 데이터를 View에 반영해서 사용자에게 알려줌
+
+
+    
     // 경로: http://localhost/code_igniter/index.php/Intro
 
 
@@ -71,7 +77,7 @@
         }
 
 
-        
+
         // 데이터를 관리하는 Model 문서에 대해 알아보기
         // application/models/Member.php를 만들어서 모델 문서 제작
         public function members(){
